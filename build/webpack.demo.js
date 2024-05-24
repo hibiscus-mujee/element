@@ -116,9 +116,11 @@ const webpackConfig = {
       filename: './index.html',
       favicon: './examples/favicon.ico'
     }),
-    new CopyWebpackPlugin([
-      { from: 'examples/versions.json' }
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'examples/versions.json' },
+      ]
+    }),
     new ProgressBarPlugin(),
     new VueLoaderPlugin(),
     new webpack.DefinePlugin({
