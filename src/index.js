@@ -89,6 +89,14 @@ import Empty from '../packages/empty/index.js';
 import Descriptions from '../packages/descriptions/index.js';
 import DescriptionsItem from '../packages/descriptions-item/index.js';
 import Result from '../packages/result/index.js';
+import EfSearch from '../packages/ef-search/index.js';
+import EfStatus from '../packages/ef-status/index.js';
+import EfTable from '../packages/ef-table/index.js';
+import EfForm from '../packages/ef-form/index.js';
+import EfTag from '../packages/ef-tag/index.js';
+import EfSlider from '../packages/ef-slider/index.js';
+import EfPagination from '../packages/ef-pagination/index.js';
+import EfPassword from '../packages/ef-password/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -177,6 +185,14 @@ const components = [
   Descriptions,
   DescriptionsItem,
   Result,
+  EfSearch,
+  EfStatus,
+  EfTable,
+  EfForm,
+  EfTag,
+  EfSlider,
+  EfPagination,
+  EfPassword,
   CollapseTransition
 ];
 
@@ -305,5 +321,13 @@ export default {
   Empty,
   Descriptions,
   DescriptionsItem,
-  Result
+  Result,
+  EfSearch,
+  EfStatus,
+  EfTable,
+  EfForm,
+  EfTag,
+  EfSlider,
+  EfPagination,
+  EfPassword
 };

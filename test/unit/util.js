@@ -119,3 +119,34 @@ export const wait = function(ms = 50) {
  * 等待一个 Tick，代替 Vue.nextTick，返回 Promise
  */
 export const waitImmediate = () => wait(0);
+
+export const getDataType = (data) => Object.prototype.toString.call(data).slice(8, -1);
+
+export const getTestData = (tableData) => {
+  return tableData || [
+    {
+      id: 1,
+      date: '2023-01-02',
+      name: '王小虎1',
+      address: '上海市普陀区金沙江路 1518 弄'
+    },
+    {
+      id: 2,
+      date: '2023-01-03',
+      name: '王小虎2',
+      address: '上海市普陀区金沙江路 1517 弄'
+    },
+    {
+      id: 3,
+      date: '2023-01-04',
+      name: '王小虎3',
+      address: '上海市普陀区金沙江路 1519 弄'
+    },
+    {
+      id: 4,
+      date: '2023-01-05',
+      name: '王小虎4',
+      address: '上海市普陀区金沙江路 1516 弄'
+    }
+  ];
+};

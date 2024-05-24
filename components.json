@@ -87,5 +87,13 @@
   "empty": "./packages/empty/index.js",
   "descriptions": "./packages/descriptions/index.js",
   "descriptions-item": "./packages/descriptions-item/index.js",
-  "result": "./packages/result/index.js"
+  "result": "./packages/result/index.js",
+  "ef-search": "./packages/ef-search/index.js",
+  "ef-status": "./packages/ef-status/index.js",
+  "ef-table": "./packages/ef-table/index.js",
+  "ef-form": "./packages/ef-form/index.js",
+  "ef-tag": "./packages/ef-tag/index.js",
+  "ef-slider": "./packages/ef-slider/index.js",
+  "ef-pagination": "./packages/ef-pagination/index.js",
+  "ef-password": "./packages/ef-password/index.js"
 }
